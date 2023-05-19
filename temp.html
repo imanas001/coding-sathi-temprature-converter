@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="temp.css" />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+  <div class="main-frame">
+
+
+      <section id="container">
+            <h1 style="text-align: center; padding-bottom: 25px;">Temprature Converter</h1>
+            <section class="flex-class">
+                  <article class="item">
+                      <label for="degree-input">Degrees</label> <br>
+                      <input type="number" id="degree-input">
+                  </article>
+                  <article class="item">
+                      <label for="conversion-options">Type</label> <br>
+                    <select id="conversion-options">
+                      <option value="kelvin">Kelvin</option>
+                      <option value="fahrenheit">Fahrenheit</option>
+                      
+                    </select>
+                  </article>
+            </section>
+              <label for="result">Result</label> <br>
+              <p id="result-output">0</p>
+
+              <button onclick="convertDegree()">Convert</button>
+      </section>
+     
+           <script src="./temp.js"></script>
+  </div>
+  </body>
+
+</html>

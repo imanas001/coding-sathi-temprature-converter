@@ -1,0 +1,70 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	line-height: 2;
+}
+body{
+	height: 100vh;
+	background-image: url("tempimg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+.main-frame{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+
+
+
+}
+#container{
+	width: 400px;
+	padding: 2em;
+	-webkit-box-shadow: 11px 20px 12px 1px rgba(0,0,0,0.17);
+-moz-box-shadow: 11px 20px 12px 1px rgba(0,0,0,0.17);
+box-shadow: 11px 20px 12px 1px rgba(0,0,0,0.17);
+border-radius: 10px;
+background-color: white;
+}
+
+.flex-class{
+display: flex;
+justify-content: space-between;
+padding-bottom: 1.5em;
+}
+.item{
+	width:48%;
+}
+
+input,
+select{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid lightgray;
+
+}
+select{
+	padding: .45em;
+}
+
+#result-output{
+	border-bottom:1px solid lightgray;
+	line-height: 1.5;
+}
+button{
+	margin-top: 1.5em;
+	width: 100%;
+	padding: 0.8em 0;
+	border: none;
+	border-radius:15px;
+	background-color: #2E8BC0;
+	color: white;
+	font-weight: bolder;
+}
+label{
+	color: gray;
+}
